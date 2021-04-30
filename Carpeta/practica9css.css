@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+img {
+	float :left;
+	padding: 10px;
+}
+#perrito{
+	position: absolute;
+	top: 450px;
+	left: 600px;
+}

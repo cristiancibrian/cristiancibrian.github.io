@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#arriba{
+	background: red;
+	padding: 30px;
+	text-align: center;
+	border-radius: 20px;
+}
+#columna1,#columna2,#columna3{
+	float: left;
+	width: 30.333%;
+	border-radius: 20px;
+}
+#columna1{
+	background-color: blue;
+	padding: 20px;
+}
+#columna2{
+	background-color: yellow;
+	padding: 20px;  
+}
+#columna3{
+	background-color: #33FFEC;
+	padding: 20px; 
+}
+#abajo{
+	background: purple;
+	padding: 30px;
+	text-align: center; 
+	border-radius: 20px;
+	clear: both;
+}

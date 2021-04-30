@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<title>Practica 12 - Cibrian</title>
+	<style>
+		body{
+			background-image: url("fondoHojas.jpg");
+		}
+		div {
+			width: :200px;
+			height: :50px;
+			text-align: center;
+			font-size:15px;
+			color: white;								
+			margin:3em;
+			border: 3px solid;
+			border-color: white;
+			-webkit-transition: all 3s;									
+			opacity:.6;
+			float: right;
+			line-height: 50px;
+		}		
+		#alarga:hover {			
+			background-color: pink;
+			font-size:25px;					
+			width: 300px;	
+		}
+		#rota:hover {
+			background-color: yellow;
+			-webkit-transform:rotate(90deg);			
+		}
+		#expande:hover {
+			background-color:green;
+			-webkit-transform:scale(2);				
+		}
+		#romboide:hover {
+			background-color: red;
+			-webkit-transform:skew(30deg);	
+		}
+		#desplaza:hover {
+			background-color: brown;
+			-webkit-transform:translate(100px,200px);			
+		}
+	</style>	
+   </head>
+   <body>
+	<div id ="alarga">ALARGAMIENTO</div>
+	<div id ="expande">EXPANSION</div>
+	<div id ="rota">ROTACION</div>
+	<div id ="desplaza">DESPLAZAMIENTO</div>
+	<div id ="romboide">ROMBOIDE</div>
+   </body>
+</html>
