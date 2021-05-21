@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+	background-color: #E8D1D3; 
+}
+h1{
+	font-family: "Courier New", Courier, monospace;
+	text-align:center;
+}
+#frase{
+	font-size:24px;
+	font-style:italic;
+	text-align:center;
+}
+#centrar{
+	text-align: center;
+}
+#flotar{
+	float:right;
+}
+#tabla{
+	margin-top:100px;
+	margin-left: 20px;
+}
+#dis{
+	text-align:center;
+	font-size: 24px;
+	font-style:inherit;
+	font:"Arial Black", Gadget, sans-serif;
+}.letritas {
+	font-size: 24px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.con {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	text-align: center;
+}
+.lista {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+#boxear{
+	border-style: solid;
+	border-color: black;
+}
+#pie{
+	float: right;
+}
